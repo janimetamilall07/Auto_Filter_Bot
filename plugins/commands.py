@@ -30,9 +30,8 @@ BATCH_FILES = {}
 @Client.on_message(filters.command("start") & filters.incoming)
 async def start(client, message):
     
-if message.chat.type == "private" and message.command == ["start"] and message.from_user.id not in ADMINS:
+ if message.chat.type == "private" and message.command == ["start"] and message.from_user.id not in ADMINS:
     return
-        
     try:
         stick_id = "CAACAgUAAxkBAAJf4Wm1eFlyXQIi7QoMXuBO33NiPy9HAAJXAAO_usYjt0RU6w_hApQeBA"
         try:
