@@ -27,11 +27,33 @@ logger = logging.getLogger(__name__)
 TIMEZONE = "Asia/Kolkata"
 BATCH_FILES = {}
 
+
+    
 @Client.on_message(filters.command("start") & filters.incoming)
 async def start(client, message):
-    
-if len(message.command) == 1:
-    return
+
+    # Block normal private start
+    if message.chat.type == "private" and len(message.command) == 1:
+        return
+
+    m = message
+
+    if len(m.command) == 2:
+        data = m.command[1]
+
+        if data.startswith("file"):
+            file_id = data.split("_", 1)[1]
+
+            files = await get_file_details(file_id)
+            if not files:
+                return
+
+            for file in files:
+                await client.send_cached_media(
+                    chat_id=m.from_user.id,
+                    file_id=file.file_id,
+                    caption=file.file_name
+                )
     try:
         stick_id = "CAACAgUAAxkBAAJf4Wm1eFlyXQIi7QoMXuBO33NiPy9HAAJXAAO_usYjt0RU6w_hApQeBA"
         try:
