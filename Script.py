@@ -5,7 +5,7 @@ class script(object):
 """
 
 
-    GSTART_TXT = """<b>ʜᴇʏ {},</b>
+    GSTART_TXT = """<b>ʜᴇʏ j {},</b>
 
 <b>🤖 ɪ ᴀᴍ <a href=https://t.me/{}>{}</a>, ᴛʜᴇ ᴍᴏꜱᴛ ᴘᴏᴡᴇʀꜰᴜʟ ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ʙᴏᴛ ᴡɪᴛʜ ᴘʀᴇᴍɪᴜᴍ ꜰᴇᴀᴛᴜʀᴇꜱ.</b>"""
 
