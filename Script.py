@@ -176,7 +176,7 @@ Nᴀᴍᴇ - {}
 
     MVE_NT_FND = NOT_FOUND_TXT = """<b>😌 ᴛʜɪꜱ ᴍᴏᴠɪᴇ ɪꜱ ɴᴏᴛ ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀꜱᴇ.</b>
 
-<blockquote>😌 यह ᴍᴏᴠɪᴇ मुझे ᴍᴇʀᴇ ᴅᴀᴛᴀʙᴀꜱᴇ में नहीं मिली।</blockquote>"""
+<blockquote>😌 not available in this anime or contact admin</blockquote>"""
 
     
     TOP_ALRT_MSG = """ꜱᴇᴀʀᴄʜɪɴɢ ꜰᴏʀ ǫᴜᴇʀʏ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀꜱᴇ..."""
@@ -225,7 +225,7 @@ Nᴀᴍᴇ : {}
 
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-    CAPTION = """<b><a href="https://t.me/jcodefixe">{file_name}</a></b>\n\n<b>⚜️ Powered By : <a href="https://t.me/jcodefixe">[ jcodefixe ]</a></b>"""
+    CAPTION = """<b><a href="https://t.me/jcodefixenet">{file_name}</a></b>\n\n<b>⚜️ Powered By : <a href="https://t.me/jcodefixenet">[jcodefixenet]</a></b>"""
 
     
     MOVIE_UPDATE_NOTIFY_TXT = """
