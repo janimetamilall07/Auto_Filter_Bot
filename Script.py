@@ -1,4 +1,4 @@
-class script(object):
+classical script(object):
     START_TXT = """<b>ʜᴇʏ j  {}, {}</b>
 
 <b>🤖 ɪ ᴀᴍ <a href=https://t.me/{}>{}</a>, ᴛʜᴇ ᴍᴏꜱᴛ ᴘᴏᴡᴇʀꜰᴜʟ ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ʙᴏᴛ ᴡɪᴛʜ ᴘʀᴇᴍɪᴜᴍ ꜰᴇᴀᴛᴜʀᴇꜱ.</b>
@@ -225,7 +225,6 @@ Nᴀᴍᴇ : {}
 
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-    CAPTION = """<b><a href="https://t.me/jcodefixenet">{file_name}</a></b>\n\n<b>⚜️ Powered By : <a href="https://t.me/jcodefixenet">[jcodefixenet]</a></b>"""
 
     
     MOVIE_UPDATE_NOTIFY_TXT = """
