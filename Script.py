@@ -224,7 +224,7 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 CAPTION = """<b><a href="https://t.me/jcodefixe">{file_name}</a></b>\n\n<b>⚜️ Powered By : <a href="https://t.me/jcodefixe">[ jcodefixe ]</a></b>"""
 
     
-    MOVIE_UPDATE_NOTIFY_TXT = """
+ MOVIE_UPDATE_NOTIFY_TXT = """
 </b><a href={poster_url}>📥</a><a href={imdb_url}>New {tag} Added</a></b>
 
 <blockquote>✨ ᴛɪᴛʟᴇ : <code>{filename}</code>
