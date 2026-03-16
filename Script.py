@@ -225,7 +225,7 @@ Nᴀᴍᴇ : {}
 
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-    CAPTION = """<b><a href="https://t.me/jcodefixenet">{file_name}</a></b>\n\n<b>⚜️ Powered By : <a href="https://t.me/jcodefixenet">[ jcodefixenet ]</a></b>"""
+    CAPTION = None
 
     
     MOVIE_UPDATE_NOTIFY_TXT = """
