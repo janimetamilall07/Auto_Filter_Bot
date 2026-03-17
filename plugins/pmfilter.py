@@ -319,7 +319,7 @@ async def next_page(bot, query):
                 curr_time.second+(curr_time.microsecond/1000000)))
         remaining_seconds = "{:.2f}".format(time_difference.total_seconds())
         dreamx_title = clean_search_text(search)
-        cap = None
+        cap = caption
         try:
             if settings['imdb']:
                 cap = caption
