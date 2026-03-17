@@ -322,7 +322,7 @@ async def next_page(bot, query):
         cap = None
         try:
             if settings['imdb']:
-                cap = None
+                cap = caption
          
                     try:
                         await query.message.edit_caption(caption=cap, reply_markup=InlineKeyboardMarkup(btn), parse_mode=enums.ParseMode.HTML)
