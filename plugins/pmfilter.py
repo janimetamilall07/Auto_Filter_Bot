@@ -322,8 +322,8 @@ async def next_page(bot, query):
         cap = None
         try:
             if settings['imdb']:
-                cap = await get_cap(settings, remaining_seconds, files, query, total, dreamx_title, offset)
-                if query.message.caption:
+                cap = None
+         
                     try:
                         await query.message.edit_caption(caption=cap, reply_markup=InlineKeyboardMarkup(btn), parse_mode=enums.ParseMode.HTML)
                     except MessageNotModified:
