@@ -1577,7 +1577,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "source":
         buttons = [[
-            InlineKeyboardButton('iqbaleditz 📜', url='https://github.com/Iqbaleditzz/Auto_Filter_Bot'),
+            InlineKeyboardButton('jcodefixe 📜', url='https://github.com/jcodefixe/Auto_Filter_Bot'),
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1615,7 +1615,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             await client.edit_message_media(
                 chat_id=query.message.chat.id,
                 message_id=query.message.id,
-                media=InputMediaPhoto(media=SUBSCRIPTION, caption=script.BPREMIUM_TXT, parse_mode=enums.ParseMode.HTML),
+                media=InputMediaPhoto(media=SUBSCRIPTION, caption=None.BPREMIUM_TXT, parse_mode=enums.ParseMode.HTML),
                 reply_markup=reply_markup
             )
         except Exception as e:
@@ -1634,7 +1634,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             await client.edit_message_media(
                 chat_id=query.message.chat.id,
                 message_id=query.message.id,
-                media=InputMediaPhoto(media=SUBSCRIPTION, caption=script.PREMIUM_TEXT, parse_mode=enums.ParseMode.HTML),
+                media=InputMediaPhoto(media=SUBSCRIPTION, caption=None.PREMIUM_TEXT, parse_mode=enums.ParseMode.HTML),
                 reply_markup=reply_markup
             )
         except Exception as e:
