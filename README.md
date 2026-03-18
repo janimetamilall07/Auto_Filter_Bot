@@ -4,13 +4,13 @@
   <img src="https://github.com/DreamXBotz/Pics/blob/main/dreamxbotz.jpg" alt="DreamxBotz Logo">
 </p>
 
-<h1 align="center">𝓓𝓻𝓮𝓪𝓶𝔁𝓑𝓸𝓽𝔃</h1>
+<h1 align="center">jcodefixe𝔃</h1>
 
 ---
 
 ## 👤 Owner
 
-[![Contact Developer](https://img.shields.io/static/v1?label=Contact+Developer&message=On+Telegram&color=critical)](https://t.me/Deendayal_Support_Group)
+[![Contact Developer](https://img.shields.io/static/v1?label=Contact+Developer&message=On+Telegram&color=critical)](https://t.me/jcodefixes support_group)
 
 ---
 
@@ -35,21 +35,11 @@ Try the live bot here:
 
 ---
 
-## 🙏 Special Thanks To
-
-- 🌴 [⌯ Ꭺɴᴏɴʏᴍᴏᴜꜱ | ×͜× |](https://t.me/BeingXAnonymous)
-- 🌴 [⌯ ᴢɪsʜᴀɴ | ×͜× |](https://t.me/IM_JISSHU)
-- 🌴 [⌯ ʙʜᴀʀᴀᴛʜ | ×͜× |](https://t.me/Bharath_boy)
-- 🌴 [Harshal Purohit Edits](https://github.com/HarshalPurohitEdits)
-- 🌴 [Support Group](https://t.me/Deendayal_Support_Group)
-
----
-
 ## 🛠 Need Help Deploying?
 
 Join our support group for assistance:
 
-[![Join Support Group](https://img.shields.io/badge/Join%20Support%20Group-Click%20Here-blue?style=flat&logo=telegram&labelColor=white)](https://t.me/Deendayal_Support_Group)
+[![Join Support Group](https://image.zaw-myo.workers.dev/file/18553b6a-d87d-4660-956e-f04fd62fe8e7)](https://t.me/jcodefixe_Support_Group)
 
 ---
 
@@ -135,12 +125,6 @@ restart             – Restart the bot
 This repository is intended **strictly for educational purposes only**.  
 The authors are **not responsible** for any misuse or abuse of this code.  
 Use at your own discretion and **always respect platform rules and copyrights**.
-
----
-
-## 📜 License
-
-This project is licensed under the [MIT License](https://github.com/MrRaazz/DreamxBotz/blob/main/LICENSE)
 
 ---
 
