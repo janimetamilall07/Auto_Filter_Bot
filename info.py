@@ -32,7 +32,7 @@ INDEX_CAPTION = bool(environ.get('SAVE_CAPTION', True)) # Save caption db when i
 COVERX = bool(environ.get('COVERX', True)) # Use cover image for indexed files (default: True)
 # If you disable it then bot will use a default thumb for all files
 
-PICS_URL = (environ.get('PICS', 'https://radare.arzfun.com/api/tg/photo?id=AgACAgUAAxkBAAEL_aRpsPFeYzT9RY-ZwSwMYwSerQRkDgACJA1rG-xoiFVIIIc4sKhVQQEAAwIAA3kAAzoE').split() #random anime girl img each time from aniwallpaper (Experimental)
+PICS_URL = (environ.get('PICS', 'https://radare.arzfun.com/api/tg/photo?id=AgACAgUAAxkBAAEL_aRpsPFeYzT9RY-ZwSwMYwSerQRkDgACJA1rG-xoiFVIIIc4sKhVQQEAAwIAA3kAAzoE')).split() #random anime girl img each time from aniwallpaper (Experimental)
 PICS = (environ.get('PICS', 'https://radare.arzfun.com/api/tg/photo?id=AgACAgUAAxkBAAEL_aRpsPFeYzT9RY-ZwSwMYwSerQRkDgACJA1rG-xoiFVIIIc4sKhVQQEAAwIAA3kAAzoE')).split()  # Sample pic
 NOR_IMG = environ.get("NOR_IMG", "https://radare.arzfun.com/api/tg/photo?id=AgACAgUAAxkBAAEMBpppugwNIod607-aSV1kHYJ6CMByCQACZg1rG_fW0FWD8v0jqvUKhAEAAwIAA3kAAzoE")
 MELCOW_PHOTO = environ.get("MELCOW_PHOTO", "https://radare.arzfun.com/api/tg/photo?id=AgACAgUAAxkBAAEL_aRpsPFeYzT9RY-ZwSwMYwSerQRkDgACJA1rG-xoiFVIIIc4sKhVQQEAAwIAA3kAAzoE")
