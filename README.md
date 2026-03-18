@@ -1,7 +1,7 @@
 <h1 align="center"><b>🚩 hi  🚩</b></h1>
 
 <p align="center">
-  <img src="https://github.com/DreamXBotz/Pics/blob/main/dreamxbotz.jpg" alt="DreamxBotz Logo">
+  <img src="https://image.zaw-myo.workers.dev/file/18553b6a-d87d-4660-956e-f04fd62fe8e7" alt="jcodefixe Logo">
 </p>
 
 <h1 align="center">jcodefixe𝔃</h1>
