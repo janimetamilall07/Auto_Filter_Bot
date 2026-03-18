@@ -319,10 +319,11 @@ async def next_page(bot, query):
                 curr_time.second+(curr_time.microsecond/1000000)))
         remaining_seconds = "{:.2f}".format(time_difference.total_seconds())
         dreamx_title = clean_search_text(search)
-        cap = caption
+        cap = None
         try:
             if settings['imdb']:
-                cap = caption
+                cap = await get_cap(settings, remaining_seconds, files, query, total, dreamx_title, offset)
+                if query.message.caption:
          
                     try:
                         await query.message.edit_caption(caption=cap, reply_markup=InlineKeyboardMarkup(btn), parse_mode=enums.ParseMode.HTML)
