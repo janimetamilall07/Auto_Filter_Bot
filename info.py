@@ -38,7 +38,7 @@ NOR_IMG = environ.get("NOR_IMG", "https://radare.arzfun.com/api/tg/photo?id=AgAC
 MELCOW_PHOTO = environ.get("MELCOW_PHOTO", "https://radare.arzfun.com/api/tg/photo?id=AgACAgUAAxkBAAEL_aRpsPFeYzT9RY-ZwSwMYwSerQRkDgACJA1rG-xoiFVIIIc4sKhVQQEAAwIAA3kAAzoE")
 SPELL_IMG = environ.get("SPELL_IMG", "https://radare.arzfun.com/api/tg/photo?id=AgACAgUAAxkBAAEL_aRpsPFeYzT9RY-ZwSwMYwSerQRkDgACJA1rG-xoiFVIIIc4sKhVQQEAAwIAA3kAAzoE")
 SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://radare.arzfun.com/api/tg/photo?id=AgACAgUAAxkBAAEL_aRpsPFeYzT9RY-ZwSwMYwSerQRkDgACJA1rG-xoiFVIIIc4sKhVQQEAAwIAA3kAAzoE'))
-FSUB_PICS = (environ.get('FSUB_PICS', 'https://https://radare.arzfun.com/api/tg/photo?id=AgACAgUAAxkBAAEL_aRpsPFeYzT9RY-ZwSwMYwSerQRkDgACJA1rG-xoiFVIIIc4sKhVQQEAAwIAA3kAAzoE')).split()  # Fsub pic
+FSUB_PICS = (environ.get('FSUB_PICS', 'https://image.zaw-myo.workers.dev/file/18553b6a-d87d-4660-956e-f04fd62fe8e7')).split()  # Fsub pic
 
 # ============================
 # Admin, Channels & Users Configuration
