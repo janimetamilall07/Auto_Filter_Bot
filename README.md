@@ -1,7 +1,7 @@
 <h1 align="center"><b>🚩 hi  🚩</b></h1>
 
 <p align="center">
-  <img src="<img src="https://i.ibb.co/20ySqvXs/IMG-20260318-204146-201.jpg"
+  <img src="<img src=" https://i.ibb.co/wFdS0n8H/IMG-20260318-204146-201.jpg "
 </p>
 
 <h1 align="center">jcodefixe𝔃</h1>
