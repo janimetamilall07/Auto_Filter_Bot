@@ -25,7 +25,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "")    # Bot token from @BotFather
 # ============================
 # Bot Settings Configuration
 # ============================
-CACHE_TIME = int(environ.get('CACHE_TIME', 300))    # Cache time in seconds (default: 5 minutes)
+CACHE_TIME = int(environ.get('CACHE_TIME', 600))    # Cache time in seconds (default: 5 minutes)
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))  # Use caption filter for search results (default: True)
 INDEX_CAPTION = bool(environ.get('SAVE_CAPTION', True)) # Save caption db when idexing make it False if you dont use USE_CAPTION_FILTER for search results (default: True)
 #Making it false will not save caption in db SO you can save some storage space
@@ -33,12 +33,12 @@ COVERX = bool(environ.get('COVERX', True)) # Use cover image for indexed files (
 # If you disable it then bot will use a default thumb for all files
 
 PICS_URL = (environ.get('PICS', 'https://radare.arzfun.com/api/tg/photo?id=AgACAgUAAxkBAAEL_aRpsPFeYzT9RY-ZwSwMYwSerQRkDgACJA1rG-xoiFVIIIc4sKhVQQEAAwIAA3kAAzoE')).split() #random anime girl img each time from aniwallpaper (Experimental)
-PICS = (environ.get('PICS', 'https://radare.arzfun.com/api/tg/photo?id=AgACAgUAAxkBAAEL_aRpsPFeYzT9RY-ZwSwMYwSerQRkDgACJA1rG-xoiFVIIIc4sKhVQQEAAwIAA3kAAzoE')).split()  # Sample pic
+PICS = (environ.get('PICS', 'https://i.ibb.co/wFdS0n8H/IMG-20260318-204146-201.jpg')).split()  # Sample pic
 NOR_IMG = environ.get("NOR_IMG", "https://radare.arzfun.com/api/tg/photo?id=AgACAgUAAxkBAAEMBpppugwNIod607-aSV1kHYJ6CMByCQACZg1rG_fW0FWD8v0jqvUKhAEAAwIAA3kAAzoE")
 MELCOW_PHOTO = environ.get("MELCOW_PHOTO", "https://radare.arzfun.com/api/tg/photo?id=AgACAgUAAxkBAAEL_aRpsPFeYzT9RY-ZwSwMYwSerQRkDgACJA1rG-xoiFVIIIc4sKhVQQEAAwIAA3kAAzoE")
 SPELL_IMG = environ.get("SPELL_IMG", "https://radare.arzfun.com/api/tg/photo?id=AgACAgUAAxkBAAEL_aRpsPFeYzT9RY-ZwSwMYwSerQRkDgACJA1rG-xoiFVIIIc4sKhVQQEAAwIAA3kAAzoE")
 SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://radare.arzfun.com/api/tg/photo?id=AgACAgUAAxkBAAEL_aRpsPFeYzT9RY-ZwSwMYwSerQRkDgACJA1rG-xoiFVIIIc4sKhVQQEAAwIAA3kAAzoE'))
-FSUB_PICS = (environ.get('FSUB_PICS', 'https://image.zaw-myo.workers.dev/file/18553b6a-d87d-4660-956e-f04fd62fe8e7')).split()  # Fsub pic
+FSUB_PICS = (environ.get('FSUB_PICS', 'https://i.ibb.co/wFdS0n8H/IMG-20260318-204146-201.jpg')).split()  # Fsub pic
 
 # ============================
 # Admin, Channels & Users Configuration
@@ -80,8 +80,8 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "jcodefixe") # Database name (defau
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'dreamcinezone_files') # Collection name (default: dreamcinezone_files)
 
 # If MULTIPLE_DB Is True Then Fill DATABASE_URI2 Value Else You Will Get Error.
-MULTIPLE_DB = is_enabled(os.environ.get('MULTIPLE_DB', "True"), False) # Type True For Turn On MULTIPLE DB FUNTION 
-DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://janimetamilall:9489473162@cluster01.jqzkr09.mongodb.net/?appName=Cluster01")  # MongoDB URI for the second database (if MULTIPLE_DB is True)
+MULTIPLE_DB = is_enabled(os.environ.get('MULTIPLE_DB', "False"), False) # Type True For Turn On MULTIPLE DB FUNTION 
+DATABASE_URI2 = environ.get('DATABASE_URI2', "")  # MongoDB URI for the second database (if MULTIPLE_DB is True)
 # ============================
 # Movie Notification & Update Settings
 # ============================
