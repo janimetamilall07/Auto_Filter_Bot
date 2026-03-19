@@ -29,13 +29,13 @@ CACHE_TIME = int(environ.get('CACHE_TIME', 300))    # Cache time in seconds (def
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))  # Use caption filter for search results (default: True)
 INDEX_CAPTION = bool(environ.get('SAVE_CAPTION', True)) # Save caption db when idexing make it False if you dont use USE_CAPTION_FILTER for search results (default: True)
 #Making it false will not save caption in db SO you can save some storage space
-COVERX = bool(environ.get('COVERX', False)) # Use cover image for indexed files (default: True)
+COVERX = bool(environ.get('COVERX', False)) # Use cover image for indexed files (default:https://i.ibb.co/wFdS0n8H/IMG-20260318-204146-201.jpg True)
 # If you disable it then bot will use a default thumb for all files
 
 PICS_URL = (environ.get('PICS', 'https://radare.arzfun.com/api/tg/photo?id=AgACAgUAAxkBAAEL_aRpsPFeYzT9RY-ZwSwMYwSerQRkDgACJA1rG-xoiFVIIIc4sKhVQQEAAwIAA3kAAzoE')).split() #random anime girl img each time from aniwallpaper (Experimental)
 PICS = (environ.get('PICS', 'https://i.ibb.co/wFdS0n8H/IMG-20260318-204146-201.jpg')).split()  # Sample pic
-NOR_IMG = environ.get("NOR_IMG", "https://radare.arzfun.com/api/tg/photo?id=AgACAgUAAxkBAAEMBpppugwNIod607-aSV1kHYJ6CMByCQACZg1rG_fW0FWD8v0jqvUKhAEAAwIAA3kAAzoE")
-MELCOW_PHOTO = environ.get("MELCOW_PHOTO", "https://radare.arzfun.com/api/tg/photo?id=AgACAgUAAxkBAAEL_aRpsPFeYzT9RY-ZwSwMYwSerQRkDgACJA1rG-xoiFVIIIc4sKhVQQEAAwIAA3kAAzoE")
+NOR_IMG = environ.get("NOR_IMG", "https://i.ibb.co/VpDRf5fd/IMG-20260319-201859-367.jpg")
+MELCOW_PHOTO = environ.get("MELCOW_PHOTO", "https://i.ibb.co/wFdS0n8H/IMG-20260318-204146-201.jpg")
 SPELL_IMG = environ.get("SPELL_IMG", "https://radare.arzfun.com/api/tg/photo?id=AgACAgUAAxkBAAEL_aRpsPFeYzT9RY-ZwSwMYwSerQRkDgACJA1rG-xoiFVIIIc4sKhVQQEAAwIAA3kAAzoE")
 SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://radare.arzfun.com/api/tg/photo?id=AgACAgUAAxkBAAEL_aRpsPFeYzT9RY-ZwSwMYwSerQRkDgACJA1rG-xoiFVIIIc4sKhVQQEAAwIAA3kAAzoE'))
 FSUB_PICS = (environ.get('FSUB_PICS', 'https://i.ibb.co/wFdS0n8H/IMG-20260318-204146-201.jpg')).split()  # Fsub pic
